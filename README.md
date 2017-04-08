@@ -23,7 +23,13 @@ A wrapper around the SimpleMDE editor for use in ember-cli projects, it provides
     ```
     {{simple-mde value=theValue change=(action (mut theValue))}}
     ```
+    
+    You can define a placeholder like this:
 
+    ```
+    {{simple-mde value=theValue placeholder=thePlaceholder change=(action (mut theValue))}}
+    ```
+    
 * Use the helper like this:
 
   ```{{simple-mde-preview theValue}}```
